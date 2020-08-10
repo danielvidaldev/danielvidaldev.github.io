@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="icon" href="img/logo.png">
     <script src="lib/js/jquery.js"></script>
     <script src="app.js"></script>
 </head>
@@ -21,16 +22,16 @@
         <div class="navbar-collapse collapse dual-collapse2">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">ABOUT</a>
+                    <a class="nav-link" alt="About me" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                    <a class="nav-link" alt="Portfolio" href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#technologies">TECHNOLOGIES</a>
+                    <a class="nav-link" alt="technologies" href="#technologies">TECHNOLOGIES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#certifications">CERTIFICATIONS</a>
+                    <a class="nav-link" alt="Certficiations" href="#certifications">CERTIFICATIONS</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#hireme" alt="Hire me" data-toggle="modal" data-target="#hiremeModal">HIRE ME</a>
@@ -41,7 +42,7 @@
 </nav>
 
 <div id="main">  
-    <div id="mainText">
+    <div id="mainText" alt="Daniel Vidal full Stack Web developer">
         <h1 class="colored">DANIEL VIDAL</h1>
         <hr class="colored">
         <h3 class="colored">FULL STACK WEB DEVELOPER</h3>
@@ -52,13 +53,13 @@
     <a href="#about"><span></span></a>
 </div>
 
-<div class="container-fluid" id="about">
+<div class="container-fluid" id="about" alt="About section">
     <div class="container">
         <h2 class="ml-auto">ABOUT</h2>
         <hr class="w-100">
     </div>
     <div class="container"> 
-        <div class="row aboutSection">
+        <div class="row aboutSection" alt="Web developer">
             <img src="img/fotoperfil.png" alt="" srcset="" class="col-sm-12 col-md-3 align-self-center">
             <div class="container-fluid col-sm-12 col-md-9 align-self-center">
                 <h4 class="text-center text-md-left">WEB DEVELOPER</h4>
@@ -71,30 +72,124 @@
         </div>
     </div>
     <div class="container"> 
-        <div class="row aboutSection">
+        <div class="row aboutSection" alt="Hospitality and Project Manager">
             <div class="container-fluid col-sm-12 col-md-9 align-self-center">
                 <h4 class="text-center text-md-left">HOSPITALITY AND PROJECT MANAGER</h4>
                 <p class="text-justify text-md-left">I have several years of experience managing teams of up to 25 people in very diverse fields: HR, 
                     Finance, Operations, Inventory Management, Software Implementations, Account Management, etc. 
                     As well, I launched a startup as a solo founder, from developing the first drafts of the initial idea until being fully operational, managing all 
-                    aspects of such a big operation. In other words: I understand your needs while developing a project. As I have "been there" myself.</p>
+                    aspects of such a big operation. In other words: I understand your needs while developing a project. As "I have been there" myself.</p>
             </div>
-            <img src="img/bruselas.png" alt="" srcset="" class="col-sm-12 col-md-3 align-self-center">
+            <img src="img/oficina.png" alt="" srcset="" class="col-sm-12 col-md-3 align-self-center d-none d-md-block d-lg-block d-xl-block">
         </div>
     </div>
     <div class="container"> 
-        <div class="row aboutSection">
-            <img src="img/oficina.png" alt="" srcset="" class="col-sm-12 col-md-3 align-self-center d-none d-md-block d-lg-block d-xl-block">
+        <div class="row aboutSection" alt="About me">
+            <img src="img/bruselas.png" alt="" srcset="" class="col-sm-12 col-md-3 align-self-center">
             <div class="container-fluid col-sm-12 col-md-9 align-self-center">
-                <h4 class="text-center text-md-left">ME</h4>
+                <h4 class="text-center text-md-left">MYSELF</h4>
                 <p class="text-justify text-md-left">Naturally from southern Spain, and graduated in International History from the University of Barcelona (UB). 
-                    I am an urban traveller, an adventurer, a nostalgic of times never lived, passionate about 60s, 70s and 80s music, an avid reader of Charles
-                    Bukowski and Karl Ove Knausgard, amongst others. I like to think my personality is a mix of the places I have lived in and the people I have 
+                    I am an urban traveller, passionate about 60s, 70s and 80s music, a nostalgic of times never lived, an avid reader of Charles
+                    Bukowski and Karl Ove Knausgard, amongst others. I like to think I am a mix of the places I have lived in and the people I have 
                     met along the way. And so it is my way of working, easy going, honest, down to earth, direct but respectful, never "overselling it" and a good communicator. </p>
             </div>
         </div>
     </div>
+</div>
 
+<div class="container-fluid" id="portfolio" alt="portfolio">
+    <div class="container">
+        <h2 class="ml-auto">PORTFOLIO</h2>
+        <hr class="w-100">
+    </div>
+    <div class="container-fluid">
+
+    </div>
+</div>
+
+<div class="container-fluid" id="technologies" alt="technologies">
+    <div class="container">
+        <h2 class="ml-auto">TECHNOLOGIES</h2>
+        <hr class="w-100">
+    </div>
+    <div class="container">
+        <div class="row technologiesSection">
+            <img src="img/logostechnologies/html5.svg" alt="HTML 5" class="col-sm-4 col-md-3" data-toggle="tooltip" data-placement="bottom" title="HTML 5">
+            <img src="img/logostechnologies/css3.svg" alt="CSS 3" class="col-sm-4 col-md-3" data-toggle="tooltip" data-placement="bottom" title="CSS 3">
+            <img src="img/logostechnologies/bootstrap.svg" alt="Bootstrap" class="col-sm-4 col-md-3" data-toggle="tooltip" data-placement="bottom" title="Bootstrap">
+            <img src="img/logostechnologies/javascript.svg" alt="Javascript" class="col-sm-4 col-md-3" data-toggle="tooltip" data-placement="bottom" title="Javascript">
+            <img src="img/logostechnologies/nodejs.svg" alt="MongoDB" class="col-sm-4 col-md-3" data-toggle="tooltip" data-placement="bottom" title="MongoDB">
+            <img src="img/logostechnologies/mongodb.svg" alt="Node.js" class="col-sm-4 col-md-3" data-toggle="tooltip" data-placement="bottom" title="Node.js">
+            <img src="img/logostechnologies/git.svg" alt="Git" class="col-sm-4 col-md-3" data-toggle="tooltip" data-placement="bottom" title="Git">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="certifications" alt="certifications">
+    <div class="container">
+        <h2 class="ml-auto">CERTIFICATIONS</h2>
+        <hr class="w-100">
+    </div>
+    <div class="container">
+        <div class="row" id="certificationsModals">
+            <div class="col-sm-12 col-md-4" data-toggle="modal" data-target="#webBootcamp">
+                <img class="w-100" src="img/certifications/webbootcamp.jpg" alt="Web Developer bootcamp" type="button" data-toggle="tooltip" data-placement="bottom" title="Web Developer Bootcamp">
+            </div>
+            <div class="col-sm-12 col-md-4" data-toggle="modal" data-target="#productOwner">
+                <img class="w-100" src="img/certifications/PSPOI.jpg" alt="Web Developer bootcamp" type="button" data-toggle="tooltip" data-placement="bottom" title="Product Owner I Scrum.org">
+            </div>
+            <div class="col-sm-12 col-md-4" data-toggle="modal" data-target="#scrumMaster">
+                <img class="w-100" src="img/certifications/PSMI.jpg" alt="Web Developer bootcamp" type="button" data-toggle="tooltip" data-placement="bottom" title="Scrum Master I Scrum.org">
+            </div>
+        </div>
+
+        <div class="modal" id="webBootcamp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg w-100" role="document">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>WEB DEVELOPER BOOTCAMP</h3>
+                        <p>Note: 47 hours of video content. The total hours of the course could be few hundreds.</p>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/certifications/webbootcamp.jpg" alt="Web Developer Bootcamp" class="w-100">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="productOwner" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg w-100" role="document">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>PROFESSIONAL SCRUM PRODUCT OWNER I Scrum.org</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/certifications/PSPOI.jpg" alt="Professional Scrum Product Owner I Scrum.org" class="w-100">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="scrumMaster" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg w-100" role="document">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>PROFESSIONAL SCRUM MASTER I Scrum.org</h3>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/certifications/PSMI.jpg" alt="Professional Scrum Master I Scrum.org" class="w-100">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="modal" id="hiremeModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -117,7 +212,7 @@
                             </div> 
                             <div class="form-group">
                                 <label for="form_message">Message:</label>
-                                <textarea name="message" class="form-control message" placeholder="Hi Daniel! I would like to hire you for an amazing job!" rows="10" required="required"></textarea>
+                                <textarea name="message" class="form-control message" placeholder="Hi Daniel! I would like to hire you for a job!" rows="10" required="required"></textarea>
                             </div>
                             <div class="status">
                         
@@ -150,7 +245,7 @@
     </div>
 </div>
 
-<footer class="container-fluid inline-block" id="hireme"> 
+<footer class="container-fluid inline-block" id="hireme" alt="Hire me"> 
     Copyright © 2020 Daniel Vidal
     <a href="https://www.linkedin.com/in/daniel-vidalr/" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/danielvidaldev" target="_blank"><i class="fab fa-github"></i></a>

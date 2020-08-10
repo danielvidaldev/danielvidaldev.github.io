@@ -6,6 +6,7 @@ html {
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     height: 100%;
+    position: relative;
 }
 
 .navbar {
@@ -275,12 +276,17 @@ footer .btn {
     margin-left: 10%;
 }
 
+.status {
+    color: red;
+    padding-bottom: 5px;
+}
+
 /* start styling about section */
 
 #about {
     min-height: 100vh;
     background: #eee;
-    padding-top: 2.5em;
+    padding-top: 3em;
     display: block;
 }
 
@@ -300,7 +306,7 @@ footer .btn {
 }
 
 .aboutSection {
-    padding-top: 0.8em;
+    padding-top: 1em;
     transition: transform .2s;
 }
 
@@ -330,5 +336,74 @@ footer .btn {
 @media (max-width: 768px) {
     .aboutSection p {
         font-size: 1.1em;
+    }
+}
+
+/* Start styling Portfolio section */
+
+#portfolio {
+    min-height: 100vh;
+    background: rgba(255,255,255,0.15);
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    padding-top: 3em;
+    display: block;
+}
+
+/* Start styling Technologies and certifications */
+
+#technologies {
+    min-height: 50vh;
+    background: #eee;
+    padding-top: 3em;
+    display: block;
+}
+
+#technologies img {
+    width: 6em;
+    height: 6em;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 3em;
+    -webkit-filter: grayscale(100%) !important;
+    filter: grey !important;
+}
+
+#technologies img:hover {
+    filter: none !important;
+    -webkit-filter: grayscale(0%) !important;
+}
+
+@media (max-width: 768px) {
+    #technologies img {
+        margin-top: 2em;
+        filter: none !important;
+        -webkit-filter: none !important;
+    }
+}
+
+#certifications {
+    min-height: 50vh;
+    background: #eee;
+    padding-top: 1em;
+    display: block;
+    padding-bottom: 3em;
+}
+
+#certificationsModals img {
+    margin-top: 3em;
+    -webkit-filter: grayscale(100%) !important;
+    filter: grey !important;
+}
+
+#certificationsModals img:hover {
+    filter: none !important;
+    -webkit-filter: grayscale(0%) !important;
+}
+
+@media (max-width: 768px) {
+    #certificationsModals img {
+        margin-top: 2em;
+        filter: none !important;
+        -webkit-filter: none !important;
     }
 }
