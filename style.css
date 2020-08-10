@@ -240,7 +240,7 @@ box-sizing: border-box;
 
 .modal-header {
     border-bottom: 1.5px solid black;
-    border-radius: 0px;
+    border-radius: 0px !important;
     color: white;
 }
 
