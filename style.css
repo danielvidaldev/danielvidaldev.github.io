@@ -286,7 +286,7 @@ footer .btn {
 #about {
     min-height: 100vh;
     background: #eee;
-    padding-top: 3em;
+    padding-top: 2em;
     display: block;
 }
 
@@ -351,7 +351,7 @@ footer .btn {
     min-height: 100vh;
     background: rgba(255,255,255,0.15);
     background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-    padding-top: 3em;
+    padding-top: 2em;
     display: block;
     padding-bottom: 0;
 }
@@ -403,7 +403,7 @@ footer .btn {
 #technologies {
     min-height: 50vh;
     background: #eee;
-    padding-top: 3em;
+    padding-top: 2em;
     display: block;
     padding-bottom: 0;
 }
