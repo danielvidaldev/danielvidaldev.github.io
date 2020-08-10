@@ -250,11 +250,12 @@ box-sizing: border-box;
 
 .modal-content {
     border-radius: 0px;
-    border: 0 auto;
+    border: 0px !important;
 }
 
 .modal-dialog {
-    border: 0 auto;
+    border: 0px !important
+    ;
 }
 
 .btn {
