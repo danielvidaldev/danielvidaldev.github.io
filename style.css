@@ -292,7 +292,7 @@ footer .btn {
 
 @media (max-width: 768px) {
     #about {
-        padding-bottom: 2em;
+        padding-bottom: 3em;
     }
 }
 
@@ -367,7 +367,7 @@ footer .btn {
 
 @media (max-width: 768px) {
     #technologies {
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
 }
 
@@ -388,7 +388,6 @@ footer .btn {
 
 @media (max-width: 768px) {
     #technologies img {
-        margin-top: 2em;
         filter: none !important;
         -webkit-filter: none !important;
     }
@@ -397,7 +396,7 @@ footer .btn {
 #certifications {
     min-height: 50vh;
     background: #eee;
-    padding-top: 1em;
+    padding-top: 2em;
     display: block;
     padding-bottom: 4em;
 }
@@ -415,7 +414,6 @@ footer .btn {
 
 @media (max-width: 768px) {
     #certificationsModals img {
-        margin-top: 2em;
         filter: none !important;
         -webkit-filter: none !important;
     }

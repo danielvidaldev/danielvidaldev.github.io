@@ -36,3 +36,7 @@ $(document).ready(function(){
         }
     });
 });
+
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
