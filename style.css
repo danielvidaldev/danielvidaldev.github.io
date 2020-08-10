@@ -242,6 +242,8 @@ box-sizing: border-box;
     border-bottom: 1.5px solid black;
     border-radius: 0px !important;
     color: white;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
 }
 
 .modal-footer {
