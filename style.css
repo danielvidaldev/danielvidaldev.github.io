@@ -142,7 +142,7 @@ opacity: .5;
 }
 
 #scrolldown a {
-padding-top: 60px;
+padding-top: 28px;
 }
 
 #scrolldown a span {
@@ -321,7 +321,7 @@ footer .btn {
 }
 
 .aboutSection .container-fluid:hover {
-    transform: scale(1.06);
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
@@ -335,7 +335,7 @@ footer .btn {
 
 @media (max-width: 768px) {
     .aboutSection .container-fluid:hover {
-        transform: none
+        transform: none;
     }
 }
 
@@ -353,6 +353,49 @@ footer .btn {
     background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
     padding-top: 3em;
     display: block;
+    padding-bottom: 0;
+}
+
+.card {
+    margin-top: 0.5em;
+    padding: 0;
+    border: 0 !important;
+    border-radius: 10px !important;
+    transition: transform .2s;
+}
+
+.card-img-top {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.card-img-bottom {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-body a {
+    align-items: right !important;
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .card:hover {
+        transform:none;
+    }
 }
 
 /* Start styling Technologies and certifications */
