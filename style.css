@@ -57,6 +57,12 @@ body {
     background-position: 50% 50%;
 }
 
+@media (max-width: 768px) {
+    #main {
+        background-position: 40% 45%;
+    }
+}
+
 #mainText {
     position: absolute;
     top: 60%;
@@ -93,8 +99,8 @@ body {
 
 @media (max-width: 768px) {
     #mainText {
-        top: 40%;
-        left: 20%;
+        top: 42%;
+        left: 8%;
     }
 }
 
