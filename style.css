@@ -17,6 +17,10 @@ body {
     font-size: 1.2rem;
 }
 
+.nav-item {
+    text-align: right;
+}
+
 .colored {
     background: rgb(250, 250,250);
     background-image: linear-gradient(45deg, #e7e9bb 0%, #ae8b9c 100%);
@@ -142,7 +146,7 @@ padding-top: 28px;
 
 @media (max-width: 768px) {
     #scrolldown a {
-        padding-top: 22px;
+        padding-top: 21px;
     }
 }
 
