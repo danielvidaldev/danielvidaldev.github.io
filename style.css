@@ -98,7 +98,6 @@ body {
     }
 }
 
-
 @media (max-width: 768px) {
     #mainText h1 {
         font-size: 2em;
@@ -280,6 +279,12 @@ footer a {
 
 footer .btn {
     margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+    footer a {
+        display: none;
+    }
 }
 
 .status {
