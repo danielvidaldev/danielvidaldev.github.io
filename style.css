@@ -380,8 +380,6 @@ footer .btn {
 }
 
 .card {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
     padding: 0;
     border: 0 !important;
     border-radius: 10px !important;
@@ -412,7 +410,14 @@ footer .btn {
 
 @media (max-width: 768px) {
     .card {
-        margin-top: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .customCol {
+        margin-bottom: 1.5em;
     }
 }
 
@@ -420,6 +425,10 @@ footer .btn {
     .card:hover {
         transform:none;
     }
+}
+
+.rowPortfolio {
+    margin-bottom: 1.5em;
 }
 
 /* Start styling Technologies and certifications */
