@@ -425,7 +425,7 @@ footer .btn {
 /* Start styling Technologies and certifications */
 
 #technologies {
-    min-height: 50vh;
+    min-height: 33vh;
     background: #eee;
     padding-top: 2em;
     display: block;
@@ -461,7 +461,7 @@ footer .btn {
 }
 
 #certifications {
-    min-height: 50vh;
+    min-height: 67vh;
     background: #eee;
     padding-top: 2em;
     display: block;
