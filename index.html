@@ -50,7 +50,7 @@
     <div id="mainText" alt="Daniel Vidal full Stack Web developer">
         <h1 class="colored">DANIEL VIDAL</h1>
         <hr class="colored">
-        <h3 class="colored">JUNIOR WEB DEVELOPER</h3>
+        <h3 class="colored">JUNIOR WEB DEVELOPER & DESIGNER</h3>
     </div>
 </div>
 
@@ -109,10 +109,19 @@
         <hr class="w-100">
     </div>
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="buttonContainer">
+            <button class="btn btn-outline-dark buttonPortfolio buttonMain">Portfolios</button>
+            <button class="btn btn-outline-dark buttonPortfolio buttonSass">Sass</button>
+            <button class="btn btn-outline-dark buttonPortfolio buttonJavascript">Javascript</button>
+            <button class="btn btn-outline-dark buttonPortfolio buttonReact">React</button>
+            <button class="btn btn-outline-dark buttonPortfolio buttonNodejs">Node.js</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3" id="portfoliosPortfoliosContainer">
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="img/portfolio/elisavidalportfolio.jpg" alt="" class="card-img-top">
+                    <img src="img/portfolio/elisavidalportfolio.jpg" alt="Elisa Vidal Portfolio" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Elisa Vidal Portfolio</h5>
                         <p class="card-text">
@@ -131,12 +140,12 @@
                         </p>
                         <a href="https://github.com/danielvidaldev/danielvidaldev.github.io" class="btn btn-outline-dark float-right" target="_blank" alt="Go to this website's github repository">Visit Github Repository</a>
                     </div>
-                    <img src="img/portfolio/danielvidalportfolio.jpg" alt="" class="card-img-bottom">
+                    <img src="img/portfolio/danielvidalportfolio.jpg" alt="This portfolio" class="card-img-bottom">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="img/portfolio/anneuijtteportfolio.jpg" alt="" class="card-img-top">
+                    <img src="img/portfolio/anneuijtteportfolio.jpg" alt="Anne Uijttewaal portofolio" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">Anne Uijttewaal Portfolio</h5>
                         <p class="card-text">
@@ -147,10 +156,181 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 rowPortfolio">
-            <div class="col mb-6 customCol">
+
+        <div class="row row-cols-1 row-cols-md-3" id="sassContainer">
+            <div class="col mb-4">
                 <div class="card h-100">
-                    <img src="img/portfolio/yelpcamp.jpg" alt="" class="card-img-top">
+                    <img src="img/portfolio/natours.jpg" alt="Natours webiste" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Natours Website</h5>
+                        <p class="card-text">
+                            Responsive website for a fake tours company, built with basic CSS (no flexbox or Grid) and Sass. Advanced CSS and Sass Bootcamp exercise.
+                        </p>
+                        <a href="https://natoursjonasbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Natours Website">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Trillo Website</h5>
+                        <p class="card-text">
+                            Responsive website faking a hotel booking service. Build with CSS flexbox and Sass. Advanced CSS and Sass Bootcamp exercise.
+                        </p>
+                        <a href="https://trillojonasbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Trillo Website">Visit Webiste</a>
+                    </div>
+                    <img src="img/portfolio/trillo.jpg" alt="Trillo website" class="card-img-bottom">
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <img src="img/portfolio/nexter.jpg" alt="Nexter Webiste" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Nexter Webiste</h5>
+                        <p class="card-text">
+                            Responsive website built with CSS Grid for an imaginary company. Advanced CSS and Sass Bootcamp exercise
+                        </p>
+                        <a href="https://nexterjonasbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Nexter Webiste">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="javascriptContainer">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Budgety App</h5>
+                            <p class="card-text">
+                                Built with vanilla Javascript. This app calculates your budget and percentages according to the introduced data. J. Schmedtmann Javascript bootcamp exercise.
+                            </p>
+                            <a href="https://budgetybootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Budgety Website">Visit Website</a>
+                        </div>
+                        <img src="img/portfolio/budgety.jpg" alt="Bugety App" class="card-img-bottom">
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/portfolio/moviefight.jpg" alt="Movie Fight App" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Movie Fight</h5>
+                            <p class="card-text">
+                                Built with Javascript and fetching an external API. App where you choose two movies and compare their data and awards. Javascript Bootcamp.
+                            </p>
+                            <a href="https://moviefightbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Movie Fight Website">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pig Dice Game</h5>
+                            <p class="card-text">
+                                Built with vanilla Javascript. Dice Game with a score set to 100. J. Schmedtmann Javascript bootcamp exercise.
+                            </p>
+                            <a href="https://dicegamebootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Pig Dice Game">Visit Website</a>
+                        </div>
+                        <img src="img/portfolio/piggame.jpg" alt="Pig Game" class="card-img-bottom">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Todo list app</h5>
+                            <p class="card-text">
+                                Vanilla Javascript. Todo list App. Colt Steele's Web Developer Bootcamp exercise.
+                            </p>
+                            <a href="https://todolistbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Todo List Website">Visit Website</a>
+                        </div>
+                        <img src="img/portfolio/todolist.jpg" alt="To do list" class="card-img-bottom">
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <img src="img/portfolio/colorpicker.jpg" alt="Color picker Game" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Colorpicker game</h5>
+                            <p class="card-text">
+                                Vanilla Javascript game & exercise. Guess the color by its rgb code. Bootcamp exercise.
+                            </p>
+                            <a href="https://colorpickerbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Colorpicker Website">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Maze Game</h5>
+                            <p class="card-text">
+                                Vanilla Javascript game & exercise with an external library. Lead the ball through the Maze. Javascript bootcamp.
+                            </p>
+                            <a href="https://mazegamebootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Maze Website">Visit Website</a>
+                        </div>
+                        <img src="img/portfolio/mazegame.jpg" alt="Maze game" class="card-img-bottom">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4" id="reactContainer">
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <img src="img/portfolio/lightsout.jpg" alt="Lights Out Game" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Lights Out Game</h5>
+                        <p class="card-text">
+                            Lights Out Game built with React constructor. Part of Colt Steele React Bootcamp.
+                        </p>
+                        <a href="https://lightsoutreact.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Lights Out Game">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Hangman Game</h5>
+                        <p class="card-text">
+                            Hangman game. Built with React constructor. Part of Colt Steele React Bootcamp.
+                        </p>
+                        <a href="https://hangmanreactcoltexercise.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Hangman Game">Visit Website</a>
+                    </div>
+                    <img src="img/portfolio/hangman.jpg" alt="Hangman Game" class="card-img-bottom">
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <img src="img/portfolio/todohooks.jpg" alt="Todo App with Hooks" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Todo App with Hooks</h5>
+                        <p class="card-text">
+                            Todo app built with React Hooks. Part of Colt Steele React Bootcamp.
+                        </p>
+                        <a href="https://todoapphookscolt.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Todo App with Hooks">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Login with Hooks</h5>
+                        <p class="card-text">
+                            Login screen with language selection built with React Hooks. Part of Colt Steele React Bootcamp.
+                        </p>
+                        <a href="https://loginwithhookscolt.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Login with Hooks">Visit Website</a>
+                    </div>
+                    <img src="img/portfolio/loginhooks.jpg" alt="Login with Hooks" class="card-img-bottom">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row row-cols-1 row-cols-md-2" id="nodejsContainer">
+            <div class="col mb-6">
+                <div class="card">
+                    <img src="img/portfolio/yelpcamp.jpg" alt="YelpCamp App" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">YelpCamp</h5>
                         <p class="card-text">
@@ -161,33 +341,7 @@
                 </div>
             </div>
             <div class="col mb-6">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Budgety App</h5>
-                        <p class="card-text">
-                            Built with vanilla Javascript. This app calculates your budget and percentages according to the introduced data. J. Schmedtmann Javascript bootcamp exercise.
-                        </p>
-                        <a href="https://budgetybootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Budgety Website">Visit Website</a>
-                    </div>
-                    <img src="img/portfolio/budgety.jpg" alt="" class="card-img-bottom">
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-2 rowPortfolio">
-            <div class="col mb-6 customCol">
-                <div class="card h-100">
-                    <img src="img/portfolio/moviefight.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Movie Fight</h5>
-                        <p class="card-text">
-                            Built with Javascript and fetching an external API. App where you choose two movies and compare their data and awards. Javascript Bootcamp.
-                        </p>
-                        <a href="https://moviefightbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Movie Fight Website">Visit Website</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-6">
-                <div class="card h-100">
+                <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Laptop Shop</h5>
                         <p class="card-text">
@@ -195,45 +349,7 @@
                         </p>
                         <a href="https://laptopshopbootcamp.herokuapp.com/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Laptop shop Website">Visit Website</a>
                     </div>
-                    <img src="img/portfolio/laptopshop.jpg" alt="" class="card-img-bottom">
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3">
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Todo list app</h5>
-                        <p class="card-text">
-                            Vanilla Javascript. Todo list App. Colt Steele's Web Developer Bootcamp exercise.
-                        </p>
-                        <a href="https://todolistbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Todo List Website">Visit Website</a>
-                    </div>
-                    <img src="img/portfolio/todolist.jpg" alt="" class="card-img-bottom">
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="img/portfolio/colorpicker.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Colorpicker game</h5>
-                        <p class="card-text">
-                            Vanilla Javascript game & exercise. Guess the color by its rgb code. Bootcamp exercise.
-                        </p>
-                        <a href="https://colorpickerbootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Colorpicker Website">Visit Website</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Maze Game</h5>
-                        <p class="card-text">
-                            Vanilla Javascript game & exercise with an external library. Lead the ball through the Maze. Javascript bootcamp.
-                        </p>
-                        <a href="https://mazegamebootcamp.netlify.app/" class="btn btn-outline-dark float-right" target="_blank" alt="Go to Maze Website">Visit Website</a>
-                    </div>
-                    <img src="img/portfolio/mazegame.jpg" alt="" class="card-img-bottom">
+                    <img src="img/portfolio/laptopshop.jpg" alt="Laptop Shop website" class="card-img-bottom">
                 </div>
             </div>
         </div>
@@ -247,15 +363,16 @@
     </div>
     <div class="container technologiesSection">
         <div class="row">
-            <img src="img/logostechnologies/html5.svg" alt="HTML 5" data-toggle="tooltip" data-placement="bottom" title="HTML 5">
-            <img src="img/logostechnologies/css3.svg" alt="CSS 3" data-toggle="tooltip" data-placement="bottom" title="CSS 3">
-            <img src="img/logostechnologies/bootstrap.svg" alt="Bootstrap" data-toggle="tooltip" data-placement="bottom" title="Bootstrap">
-            <img src="img/logostechnologies/javascript.svg" alt="Javascript" data-toggle="tooltip" data-placement="bottom" title="Javascript">
+            <img class="col-sm-6 col-md-3" src="img/logostechnologies/html5.svg" alt="HTML 5" data-toggle="tooltip" data-placement="bottom" title="HTML 5">
+            <img class="col-sm-6 col-md-3" src="img/logostechnologies/css3.svg" alt="CSS 3" data-toggle="tooltip" data-placement="bottom" title="CSS 3">
+            <img class="col-sm-6 col-md-3" src="img/logostechnologies/bootstrap.svg" alt="Bootstrap" data-toggle="tooltip" data-placement="bottom" title="Bootstrap">
+            <img class="col-sm-6 col-md-3" src="img/logostechnologies/sass.svg" alt="Saas" data-toggle="tooltip" data-placement="bottom" title="Saas">
         </div>
         <div class="row">
-            <img src="img/logostechnologies/nodejs.svg" alt="Node.js" data-toggle="tooltip" data-placement="bottom" title="Node.js">
-            <img src="img/logostechnologies/mongodb.svg" alt="MongoDB" data-toggle="tooltip" data-placement="bottom" title="MongoDB">
-            <img src="img/logostechnologies/git.svg" alt="Git" data-toggle="tooltip" data-placement="bottom" title="Git">
+            <img class="col-sm-6 col-md-3" src="img/logostechnologies/javascript.svg" alt="Javascript" data-toggle="tooltip" data-placement="bottom" title="Javascript">
+            <img class="col-sm-6 col-md-3" src="img/logostechnologies/react.svg" alt="React.js" data-toggle="tooltip" data-placement="bottom" title="React.js">
+            <img class="col-sm-6 col-md-3" src="img/logostechnologies/nodejs.svg" alt="Node.js" data-toggle="tooltip" data-placement="bottom" title="Node.js">
+            <img class="col-sm-6 col-md-3" src="img/logostechnologies/git.svg" alt="Git" data-toggle="tooltip" data-placement="bottom" title="Git">
         </div>
     </div>
 </div>
@@ -267,17 +384,23 @@
     </div>
     <div class="container">
         <div class="row certificationsModals">
-            <div class="col-xs-12 col-md-4" data-toggle="modal" data-target="#webBootcamp">
-                <img class="w-100" src="img/certifications/webbootcamp.jpg" alt="Web Developer bootcamp" type="button" data-toggle="tooltip" data-placement="bottom" title="Web Developer Bootcamp">
+            <div class="col-xs-12 col-md-3" data-toggle="modal" data-target="#reactColt">
+                <img class="w-100" src="img/certifications/reactcolt.jpg" alt="React Bootcamp Colt Steele" type="button" data-toggle="tooltip" data-placement="bottom" title="React Bootcamp Colt Steele">
             </div>
-            <div class="col-xs-12 col-md-4" data-toggle="modal" data-target="#javascriptColt">
+            <div class="col-xs-12 col-md-3" data-toggle="modal" data-target="#advancedcssjonas">
+                <img class="w-100" src="img/certifications/advancedcssjonas.jpg" alt="Advanced CSS and SASS Jonas Schmedtmann Bootcamp" type="button" data-toggle="tooltip" data-placement="bottom" title="Advanced CSS and SASS Jonas Schmedtmann Bootcamp">
+            </div>
+            <div class="col-xs-12 col-md-3" data-toggle="modal" data-target="#javascriptColt">
                 <img class="w-100" src="img/certifications/javascriptbootcampcoltsteelestephengrider.jpg" alt="Javascript Bootcamp Colt Steele" type="button" data-toggle="tooltip" data-placement="bottom" title="Javascript Bootcamp Colt Steele">
             </div>
-            <div class="col-xs-12 col-md-4" data-toggle="modal" data-target="#javascriptJonas">
+            <div class="col-xs-12 col-md-3" data-toggle="modal" data-target="#javascriptJonas">
                 <img class="w-100" src="img/certifications/javascriptbootcampjonasschmedtmann.jpg" alt="Javascript Bootcamp Jonas Schmedtmann" type="button" data-toggle="tooltip" data-placement="bottom" title="Javascript Bootcamp Jonas Schmedtmann">
             </div>
         </div>
         <div class="row certificationsModals">
+            <div class="col-xs-12 col-md-4" data-toggle="modal" data-target="#webBootcamp">
+                <img class="w-100" src="img/certifications/webbootcamp.jpg" alt="Web Developer bootcamp Colt Steele" type="button" data-toggle="tooltip" data-placement="bottom" title="Web Developer Bootcamp Colt Steele">
+            </div>
             <div class="col-xs-12 col-md-4" data-toggle="modal" data-target="#productOwner">
                 <img class="w-100" src="img/certifications/PSPOI.jpg" alt="Product Owner Agile" type="button" data-toggle="tooltip" data-placement="bottom" title="Product Owner I Scrum.org">
             </div>
@@ -286,15 +409,31 @@
             </div>
         </div>
 
-        <div class="modal" id="webBootcamp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal" id="reactColt" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg w-100" role="document">
                  <div class="modal-content">
                     <div class="modal-header">
-                        <h3>WEB DEVELOPER BOOTCAMP</h3>
-                        <p>Note: 47 hours of video content. The total hours of the course could be few hundreds.</p>
+                        <h3>REACT BOOTCAMP COLT STEELE</h3>
+                        <p>Note: 39 hours of video content. The total hours of the course could around 60.</p>
                     </div>
                     <div class="modal-body">
-                        <img src="img/certifications/webbootcamp.jpg" alt="Web Developer Bootcamp" class="w-100">
+                        <img src="img/certifications/reactcolt.jpg" alt="React Bootcamp Colt Steele" class="w-100">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="advancedcssjonas" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg w-100" role="document">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>ADVANCED CSS AND SASS BOOTCAMP JONAS SCHMEDTMANN</h3>
+                        <p>Note: 28 hours of video content. The total hours of the course could around 45.</p>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/certifications/advancedcssjonas.jpg" alt="Advanced CSS and SASS bootcamp" class="w-100">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -327,6 +466,22 @@
                     </div>
                     <div class="modal-body">
                         <img src="img/certifications/javascriptbootcampjonasschmedtmann.jpg" alt="Javascript Bootcamp Jonas Schmedtmann" class="w-100">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="webBootcamp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg w-100" role="document">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>WEB DEVELOPER BOOTCAMP</h3>
+                        <p>Note: 47 hours of video content. The total hours of the course could be few hundreds.</p>
+                    </div>
+                    <div class="modal-body">
+                        <img src="img/certifications/webbootcamp.jpg" alt="Web Developer Bootcamp" class="w-100">
                     </div>
                 </div>
                 <div class="modal-footer">

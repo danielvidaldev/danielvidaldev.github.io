@@ -25,6 +25,7 @@ body {
     background: rgb(250, 250,250);
     background-image: linear-gradient(45deg, #e7e9bb 0%, #ae8b9c 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     background-size: 200%;
     animation: gradient 2s linear infinite alternate;
@@ -34,6 +35,7 @@ body {
     color: white;
     background-image: linear-gradient(45deg, #e7e9bb 0%, #ae8b9c 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     background-size: 200%;
     animation: gradient 2s linear infinite alternate;
@@ -72,11 +74,45 @@ body {
 
 #mainText h1 {
     font-size: 3em;
+    animation: moveInLeft 1.7s ease-out;
 }
 
 #mainText h3 {
     font-size: 2em;
+    animation: moveInRight 1.7s ease-out;
 
+}
+
+@keyframes moveInLeft {
+    0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+    }
+
+    80% {
+    transform: translateX(1rem);
+    }
+
+    100% {
+    opacity: 1;
+    transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+    opacity: 0;
+    transform: translateX(10rem);
+    }
+
+    80% {
+    transform: translateX(-1rem);
+    }
+
+    100% {
+    opacity: 1;
+    transform: translate(0);
+    }
 }
 
 #mainText hr {
@@ -415,9 +451,19 @@ footer .btn {
     }
 }
 
+#nodejsContainer .card {
+    height: 100%;
+}
+
 @media (max-width: 768px) {
-    .customCol {
-        margin-bottom: 1.5em;
+    #nodejsContainer .card {
+    height: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    #reactContainer .card {
+    height: 95% !important;
     }
 }
 
@@ -427,8 +473,34 @@ footer .btn {
     }
 }
 
-.rowPortfolio {
-    margin-bottom: 1.5em;
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8em;
+    margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+    .buttonContainer {
+        margin-bottom: 1.5em !important;
+    }
+}
+
+.buttonPortfolio {
+    border-radius: 100px;
+    font-size: 1.2em;   
+}
+
+#portfolioPorfoliosContainer {
+    display: flex;
+}
+
+#javascriptContainer,
+#sassContainer,
+#reactContainer,
+#nodejsContainer {
+    display: none;
 }
 
 /* Start styling Technologies and certifications */
