@@ -47,47 +47,41 @@ const sassContainer = document.querySelector('#sassContainer');
 const javascriptContainer = document.querySelector('#javascriptContainer');
 const reactContainer = document.querySelector('#reactContainer');
 const nodejsContainer = document.querySelector('#nodejsContainer');
-document.querySelector('.buttonMain').onclick = () => {
-    portfoliosContainer.style.display = "flex";
-    sassContainer.style.display = "none";
-    javascriptContainer.style.display = "none"; 
-    reactContainer.style.display = "none";
-    nodejsContainer.style.display = "none";
-    buttonContainer.style.marginBottom = "8em";
-};
 
-document.querySelector('.buttonSass').onclick = () => {
-    sassContainer.style.display = "flex";
-    portfoliosContainer.style.display = "none";
-    javascriptContainer.style.display = "none"; 
-    reactContainer.style.display = "none";
+function hideAll() {
     nodejsContainer.style.display = "none";
-    buttonContainer.style.marginBottom = "8em";
-};
-
-document.querySelector('.buttonJavascript').onclick = () => {
-    javascriptContainer.style.display = "block";
-    portfoliosContainer.style.display = "none"; 
-    sassContainer.style.display = "none";
-    reactContainer.style.display = "none";
-    nodejsContainer.style.display = "none";
-    buttonContainer.style.marginBottom = "2em";
-};
-
-document.querySelector('.buttonReact').onclick = () => {
-    reactContainer.style.display = "flex";
-    portfoliosContainer.style.display = "none";
-    sassContainer.style.display = "none";
-    javascriptContainer.style.display = "none"; 
-    nodejsContainer.style.display = "none";
-    buttonContainer.style.marginBottom = "8em";
-};
-
-document.querySelector('.buttonNodejs').onclick = () => {
-    nodejsContainer.style.display = "flex";
     javascriptContainer.style.display = "none";
     sassContainer.style.display = "none";
     portfoliosContainer.style.display = "none"; 
     reactContainer.style.display = "none";
+}
+
+document.querySelector('.buttonMain').onclick = () => {
+    hideAll();
+    portfoliosContainer.style.display = "flex";
+    buttonContainer.style.marginBottom = "8em";
+};
+
+document.querySelector('.buttonSass').onclick = () => {
+    hideAll();
+    sassContainer.style.display = "flex";
+    buttonContainer.style.marginBottom = "8em";
+};
+
+document.querySelector('.buttonJavascript').onclick = () => {
+    hideAll();
+    javascriptContainer.style.display = "block";
+    buttonContainer.style.marginBottom = "2em";
+};
+
+document.querySelector('.buttonReact').onclick = () => {
+    hideAll();
+    reactContainer.style.display = "flex";
+    buttonContainer.style.marginBottom = "8em";
+};
+
+document.querySelector('.buttonNodejs').onclick = () => {
+    hideAll();
+    nodejsContainer.style.display = "flex";
     buttonContainer.style.marginBottom = "8em";
 };
