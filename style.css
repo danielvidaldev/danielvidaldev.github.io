@@ -363,6 +363,7 @@ footer .btn {
     margin: 0 auto;
     -webkit-filter: grayscale(100%) !important;
     filter: grey !important;
+    transition: .8s;
 }
 
 #about img:hover {
@@ -372,7 +373,6 @@ footer .btn {
 
 .aboutSection {
     padding-top: 1em;
-    transition: transform .2s;
 }
 
 .aboutSection p {
@@ -381,6 +381,7 @@ footer .btn {
 
 .aboutSection .container-fluid:hover {
     transform: scale(1.05);
+    transition: transform .8s;
 }
 
 @media (max-width: 768px) {
@@ -419,7 +420,7 @@ footer .btn {
     padding: 0;
     border: 0 !important;
     border-radius: 10px !important;
-    transition: transform .2s;
+    transition: transform .5s;
 }
 
 .card-img-top {

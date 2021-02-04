@@ -76,8 +76,8 @@ document.querySelector('.buttonJavascript').onclick = () => {
 
 document.querySelector('.buttonReact').onclick = () => {
     hideAll();
-    reactContainer.style.display = "flex";
-    buttonContainer.style.marginBottom = "8em";
+    reactContainer.style.display = "block";
+    buttonContainer.style.marginBottom = "2em";
 };
 
 document.querySelector('.buttonNodejs').onclick = () => {
